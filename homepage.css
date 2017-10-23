@@ -1,0 +1,60 @@
+.container-fluid {
+	margin: 0;
+	font-family: arial;
+}
+
+ul{
+	list-style: none;
+	margin:0 ;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a: hover:not(.active) {
+	background-color: #E86875;
+}
+
+.active1 {
+	color: #28C2FF; //blue
+}
+
+.active2 {
+	color: #E86875; //light pink
+}
+
+.active3 {
+	color: #772D8B; //maximum purple
+}
+
+h1 {
+	    font-size: 90px;
+		color: #28C2FF;
+		margin: 0;
+		line-height: 1;
+		padding: 0;
+}
+
+h2 {
+
+}
+
+#p {
+
+}
+
+#p {
+
+}
