@@ -1,6 +1,10 @@
 .container-fluid {
-	margin: 0;
+	margin: 50px;
 	font-family: arial;
+}
+
+body {
+	padding: 20px; //changes what looks like the margin- will adjust in end
 }
 
 ul{
@@ -23,38 +27,132 @@ li a {
 	text-decoration: none;
 }
 
-li a: hover:not(.active) {
-	background-color: #E86875;
+ul li a, ul.nav li a:visited {
+    color: #A4E869; //yellow-lime
+}
+
+ul li a:hover, ul.nav li a:active {
+    color: #38c5fc; //logo-blue
+}
+
+ul li.active a {
+    color: #b5b59c; //light-brown
 }
 
 .active1 {
-	color: #28C2FF; //blue
+	color: #b5b59c; //light brown
 }
 
 .active2 {
-	color: #E86875; //light pink
+	color: #b5b59c; //light brown
 }
 
 .active3 {
-	color: #772D8B; //maximum purple
+	color: #b5b59c; //light brown
 }
 
-h1 {
-	    font-size: 90px;
-		color: #28C2FF;
+#intro { //top 4 lines div
+}
+
+.logo {
+	position: absolute;
+	right: 50px;
+	top: 155px
+}
+
+.title {
+	  font-size: 50px;
+		color: #ED8A19; //orange
 		margin: 0;
 		line-height: 1;
 		padding: 0;
 }
 
-h2 {
-
+.p1 {
+	font-size: 20px;
+	color: #b5b59c; //light brown
+	margin: 0;
+	line-height: 1;
+	padding: 0;
 }
 
-#p {
-
+.p2 {
+	font-size: 35px;
+	color: #ED8A19; //orange
+	margin: 0;
+	line-height: 1;
+	padding: 0;
 }
 
-#p {
+.p3 {
+	font-size: 20px;
+	color: #b5b59c; //light brown
+	margin: 0;
+	line-height: 1;
+	padding: 0;
+}
 
+.p5 {
+	font-size: 35px;
+	color: #ED8A19; //orange
+	margin: 0;
+	line-height: 1;
+	padding: 0;
+	text-align: center;
+}
+
+
+.p5 a:visited {
+    color: #38c5fc; //logo-blue
+}
+
+.p5 a:hover, ul.nav li a:active {
+    color: #A4E869; //yellow-lime
+}
+
+.p5.active a {
+    color: #b5b59c; //light-brown
+}
+
+.p6 {
+	font-size: 14px;
+	color: #989599
+	line-height: 1;
+	padding: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	color:  #b5b59c; //light brown
+}
+
+.p6 a:visited {
+    color: #38c5fc; //logo-blue
+}
+
+.p6 a:hover, ul.nav li a:active {
+    color: #A4E869; //yellow-lime
+}
+
+.p6.active a {
+    color: #b5b59c; //light-brown
+}
+
+
+#websiteContainer {
+	font-size: 20px;
+	color:  #b5b59c; //light brown
+	margin: 0;
+	line-height: 1;
+}
+
+#websiteContainer a, ul.nav li a:visited {
+    color: #38c5fc; //logo-blue
+}
+
+#websiteContainer a:hover, ul.nav li a:active {
+    color: #A4E869; //yellow-lime
+}
+
+#websiteContainer.active a {
+    color: #b5b59c; //light-brown
 }
