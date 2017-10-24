@@ -1,5 +1,5 @@
 .container-fluid {
-	margin: 50px;
+	margin: 0;
 	font-family: arial;
 }
 
@@ -56,8 +56,8 @@ ul li.active a {
 
 .logo {
 	position: absolute;
-	right: 50px;
-	top: 155px
+	right: 45px;
+	top: 100px
 }
 
 .title {
@@ -77,7 +77,7 @@ ul li.active a {
 }
 
 .p2 {
-	font-size: 35px;
+	font-size: 37px;
 	color: #ED8A19; //orange
 	margin: 0;
 	line-height: 1;
@@ -90,6 +90,18 @@ ul li.active a {
 	margin: 0;
 	line-height: 1;
 	padding: 0;
+}
+
+.p3 a:visited {
+    color: #A4E869; //yellow-lime
+}
+
+.p3 a:hover, ul.nav li a:active {
+    color: #38c5fc; //logo-blue
+}
+
+.p3.active a {
+    color: #b5b59c; //light-brown
 }
 
 .p5 {
